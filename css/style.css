@@ -1,0 +1,192 @@
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;	
+	font-family: 'Roboto', sans-serif;
+	
+}
+@media (min-width:320px){
+.container{
+	width:95%;
+	margin:auto;
+}	
+h2{
+	width:75%;
+}
+
+
+}
+@media (min-width:620px){
+	
+.row{
+	display:flex;
+	align-items:flex-start;
+}
+.col-1{
+	width:60%;
+	margin:auto;
+	
+}
+.col-2{
+	width:40%;
+
+}
+.image-login{
+	position:relative;
+	
+}
+.image-login img{
+	position:absolute;
+	left:50%;
+}
+
+}
+@media (min-width:960px){
+h2{
+	font-size:3rem;
+	width:140%;
+	
+}
+.row{
+	display:flex;
+	align-items:flex-start;
+}
+.col-1{
+	width:30%;
+	margin:auto;
+}
+.col-2{
+	width:50%;
+
+}
+.image-login{
+	position:relative;
+	
+}
+.image-login img{
+	position:absolute;
+	left:20%;
+}
+
+
+}
+
+section{
+	margin-top:20px;
+	overflow:hidden;
+}
+.image-login{
+	padding:25px;
+}
+h2{
+	font-weight:400;
+	color:#8f5849;
+	padding-bottom:20px;
+	padding-left:10px;
+}
+.input-login label{
+	display:block;
+	padding-bottom:10px;
+	font-weight:bolder;
+}
+.input-login{
+	padding-bottom:10px;
+}
+.input-login input{
+	width:100%;
+	padding-bottom:25px;
+	border:1px solid #010F11;
+}
+::placeholder{
+	color:#0a66c2;
+	font-weight:600;
+	float:right;
+	padding:10px;
+}
+a{
+	text-decoration:none;
+}
+.forget-pass a{
+	color:#0a66c2;
+}
+.forget-pass{
+	font-size:0.8rem;
+	padding-bottom:10px;
+}
+.sign-in a{
+	color:#ffff;
+}
+.sign-in{
+	width:90%;
+	margin:auto;
+	padding:10px 0;
+	background-color:#0a66c2;
+	border-radius:20px;
+	text-align:center;
+	font-weight:600;
+}
+.image-login img{
+	max-width:100%;
+	margin:auto;
+}
+.login-or{
+	text-align:center;
+	position:relative;
+	padding:15px 0;
+}
+.login-or p::after{
+	content:"";
+	display:block;
+	width:45%;
+	height:2px;
+	color:#DFDFE1;
+	background-color:#DFDFE1;
+	position:absolute;
+	top:47%;
+	left:0%;
+}
+.login-or p::before{
+	content:"";
+	display:block;
+	width:45%;
+	height:2px;
+	color:#DFDFE1;
+	background-color:#DFDFE1;
+	position:absolute;
+	top:47%;
+	left:54%;
+}
+.google{
+	display:flex;
+	gap:20px;
+	width:90%;
+	margin:auto;
+	border:1px solid #010F11;
+	justify-content:center;
+	border-radius:20px;
+	padding:10px 0;
+	
+}
+.sign-google a{
+	color:#010F11;
+}
+
+.join{
+	text-align:center;
+	border:1px solid #010F11;
+	width:90%;
+	margin:auto;
+	border-radius:20px;
+	padding:10px 0;
+	margin-top:10px;
+}
+.join a{
+	color:#010F11;
+}	
+
+
+
+
+
+
